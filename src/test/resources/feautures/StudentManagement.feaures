@@ -1,0 +1,11 @@
+@StudentManagement
+Feature: The teacher should be able to view, update and delete meeting.
+
+  @updateDelete
+
+  Scenario: The teacher should be able to view, update and delete meeting.
+
+    Given User enters the home page
+    And  User clicks on the menu
+    And Meet Management is clicked
+    Then Meet Management page appears and Date, Start Time, End Time and Description of meetings are visible to the teacher.
